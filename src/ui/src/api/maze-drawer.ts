@@ -24,6 +24,10 @@ export class MazeDrawer {
   private solutionPath: Path | null;
   private explorationPaths: Path[] | null;
 
+  get mazeSize () {
+    return this.maze.length;
+  }
+
   constructor(private maze: number[][]) {}
 
   initialize(

@@ -135,11 +135,13 @@ export default {
       };
       mazeDrawer.nodes = [];
 
-      this.grapher = new GraphDrawer(this.$refs.treeGraph);
-
-      (this.grapher as GraphDrawer)
-        .initialize(nodes, edges, [start, end])
-        .drawPath(explorationPaths, solutionPath);
+      if ((this.mazeDrawer as MazeDrawer).mazeSize <= 50) {
+        this.grapher = new GraphDrawer(this.$refs.treeGraph);
+  
+        (this.grapher as GraphDrawer)
+          .initialize(nodes, edges, [start, end])
+          .drawPath(explorationPaths, solutionPath);
+      }
     },
   },
 };
