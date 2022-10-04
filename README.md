@@ -1,5 +1,7 @@
 # My Little Maze-Solver, and IA-Search-Algorithm Approach
 
+[Project Demo](maze-solver-un2027631.netlify.com/)
+
 <img align="right" src="img/cover.png" height="420">
 
 Below you will find a brief overview of the algorithms presented on the project. This proposal was developed for "Introduction to Artificial Intelligence" (Universidad Nacional de Colombia).
