@@ -22,6 +22,10 @@ Below you will find a brief overview of the algorithms presented on the project.
 
 The intention of this project is to visualize and compare search algorithms to solve mazes by using various brute-force and heuristic algorithms. The front-end is coded in JavaScript with the Nuxt 3 framework and the algorithms are implemented in Python. At the end of the document there's an explanation on how to deploy the repository locally.
 
+Live demo [here](https://maze-solver-un2027631.netlify.com/)
+
+YouTube video [here](https://youtu.be/tLFu_M723Cw)
+
 In the code, mazes are considered trees, turned into Graphs and each individual cell is considered a node. The purpose of this is to make the coding easier to do and easier to read. Also, all the algorithms implemented in this repository are algorithms for searching a tree data structure for a node.
 
 ## The BFS Algorithm
